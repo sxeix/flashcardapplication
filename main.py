@@ -117,13 +117,13 @@ def getUserIndex():
     Raises:
         ValueError: raises an exception for when the input is not an integer
     """
-        while True:
-            try:
-                x = int(input("Select index: "))
-                break
-            except ValueError:
-                print("Not a valid integer please try again")
-        return x
+    while True:
+        try:
+            x = int(input("Select index: "))
+            break
+        except ValueError:
+            print("Not a valid integer please try again")
+    return x
 
 def removeCard():
     """
