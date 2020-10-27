@@ -10,5 +10,13 @@
   {
     "question": "What is my favourite colour?",
     "answer": "Blue"
+  },
+  {
+    "question": "What is my job?",
+    "answer": "Software Engineer"
+  },
+  {
+    "question": "What's my favourite programming language?",
+    "answer": "Java"
   }
 ]

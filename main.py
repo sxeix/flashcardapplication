@@ -33,7 +33,7 @@ def addCard(q, a):
     cards.append(c)
     saveCards(cards)
 
-def saveCards():
+def saveCards(cards):
     """
     Converts cards from list to JSON string then updates
     JSON file with the set of cards at that current time
